@@ -70,6 +70,11 @@ The trend analysis shows a strong start (Mission 1), followed by a notable dip i
 
 ![Mission Trend](reports/figures/mission_trend.png)
 
+### 3. Dimensional Correlations (Heatmap)
+The correlation heatmap clarifies the mathematical relationship between different evaluation metrics. Statistical correlation confirms that **Group Integration** is the primary driver for **Learning Interaction** (0.68). Interestingly, while **Motivation** strongly impacts **Role Performance** (0.65), its direct influence on group interaction is more moderate (0.41).
+
+![Correlation Heatmap](reports/figures/correlation_heatmap.png)
+
 ##  Citation
 If you use this project, please cite the original dataset:
 > Acosta-Vargas, Patricia; Uchima-Marin, Cristian; Salvador-Acosta, Luis (2025), “Dataset on Teaching-Learning Gamification”, Mendeley Data, V1, doi: 10.17632/yc4np572zs.1
