@@ -27,13 +27,22 @@ The dataset compiles quantitative and qualitative information on gamification st
 ```text
 gamification-learning-analysis/
 ├── data/
-│   ├── raw/                # Original Excel datasets from Mendeley Data
-│   └── processed/          # Cleaned and numerically transformed CSV files
-├── src/
-│   └── data_cleaning.py    # Python script for data preprocessing and mapping
-├── .gitignore              # Prevents tracking of venv and cache files
-├── LICENSE                 # CC BY 4.0 License
-└── README.md               # Project documentation
+│   ├── raw/                  # Original Excel datasets (Genially & Collaborative)
+│   │   ├── datasetGenially.xlsx
+│   │   └── gamification_collaborative_learning.xlsx
+│   └── processed/            # Cleaned and numerically transformed CSV
+│       └── cleaned_gamification_data.csv
+├── reports/
+│   └── figures/              # Generated analysis charts (Radar, Trend, Heatmap)
+├── src/                      # Source code for the project
+│   ├── app.py                # Streamlit dashboard application
+│   ├── data_cleaning.py      # Data preprocessing and mapping script
+│   └── visualize.py          # Script for generating static visualizations
+├── .gitignore                # Files to ignore (venv, __pycache__, etc.)
+├── LICENSE                   # Project license (CC BY 4.0)
+├── README.md                 # Main project documentation
+├── data_dictionary.md        # Detailed explanation of variables and metrics
+└── requirements.txt          # Python dependencies for the project
 ```
 
 ### Translation & Standardization
