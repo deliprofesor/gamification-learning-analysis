@@ -11,6 +11,40 @@ The dataset compiles quantitative and qualitative information on gamification st
 - **Institution:** Universidad de Las Americas
 - **Contributors:** Patricia Acosta-Vargas, Cristian Uchima-Marin, Luis Salvador-Acosta
 
+## Recent Updates
+- **Automated Data Pipeline:** Developed `src/data_cleaning.py` to handle raw Excel files.
+- **Numerical Mapping:** Standardized categorical Spanish evaluations into a 1-4 numerical scale.
+- **Professional Refactoring:** Organized the workspace into a standard data science project structure.
+
+##  Repository Structure
+
+```text
+gamification-learning-analysis/
+├── data/
+│   ├── raw/                # Original Excel datasets from Mendeley Data
+│   └── processed/          # Cleaned and numerically transformed CSV files
+├── src/
+│   └── data_cleaning.py    # Python script for data preprocessing and mapping
+├── .gitignore              # Prevents tracking of venv and cache files
+├── LICENSE                 # CC BY 4.0 License
+└── README.md               # Project documentation
+```
+
+### Translation & Standardization
+To ensure global accessibility and ease of coding, all Spanish headers and categorical values have been mapped to English equivalents.
+- **Source Language:** Spanish (ES)
+- **Target Language:** English (EN)
+
+### Qualitative to Quantitative Conversion
+Student evaluations were originally recorded as categorical feedback. These have been transformed into a numerical scale to enable statistical analysis and multidimensional profiling:
+
+| Qualitative Level (ES) | Qualitative Level (EN) | Numerical Value |
+|:-----------------------|:-----------------------|:---------------:|
+| **BAJO** | Low                    | **1** |
+| **BÁSICO** | Basic                  | **2** |
+| **ALTO** | High                   | **3** |
+| **SUPERIOR** | Superior               | **4** |
+
 ##  Evaluation Metrics
 The analysis focuses on 5 core dimensions:
 1. **Group Motivation** (Engagement levels)
