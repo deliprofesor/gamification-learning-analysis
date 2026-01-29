@@ -4,6 +4,12 @@
 
 This repository contains an exploratory data analysis (EDA) and visualization of gamification's impact on educational processes.
 
+##  Teaching-Learning Gamification Analysis
+
+> **Live Demo:** [Click here to explore the interactive dashboard](https://gamification-learning-analysis-f26dhqkhlrra7gkgl5rzx4.streamlit.app/)
+
+##  Project Overview
+
 ##  About the Dataset
 The dataset compiles quantitative and qualitative information on gamification strategies, focusing on student motivation, role performance, and collaborative dynamics.
 
