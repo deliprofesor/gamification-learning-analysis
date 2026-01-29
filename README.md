@@ -75,6 +75,23 @@ The correlation heatmap clarifies the mathematical relationship between differen
 
 ![Correlation Heatmap](reports/figures/correlation_heatmap.png)
 
+##  Interactive Dashboard
+An interactive web dashboard has been developed using **Streamlit** and **Plotly** to allow for dynamic exploration of the gamification data.
+
+### Features
+- **Dynamic Filtering:** Filter results by specific Missions (1-6).
+- **Interactive Radar Chart:** View overall performance dimensions for selected missions.
+- **Trend Analysis:** Track performance evolution with interactive line charts.
+- **Data Preview:** Access and filter the processed dataset directly.
+
+### How to Run Locally
+To run the dashboard on your local machine, follow these steps:
+1. Navigate to the project directory.
+2. Ensure dependencies are installed (see requirements.txt).
+3. Execute the following command:
+   ```bash
+   streamlit run src/app.py
+
 ##  Citation
 If you use this project, please cite the original dataset:
 > Acosta-Vargas, Patricia; Uchima-Marin, Cristian; Salvador-Acosta, Luis (2025), “Dataset on Teaching-Learning Gamification”, Mendeley Data, V1, doi: 10.17632/yc4np572zs.1
