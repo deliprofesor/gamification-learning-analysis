@@ -56,7 +56,19 @@ The analysis focuses on 5 core dimensions:
 ##  Analysis & Methodology
 - Conversion of qualitative scales (Low, Basic, High, Superior) to numerical values (1-4).
 - Descriptive statistics and multidimensional radar profiling.
-- Visualizing trends across different gamification missions.
+
+## Visual Analysis Results
+The following charts represent the quantitative analysis of the gamification process based on the processed dataset.
+
+### 1. Overall Performance Profile (Radar Chart)
+The radar chart illustrates the balance between different dimensions. **Motivation** stands out as the primary driver of the strategy, with all metrics maintaining a healthy average above 2.5 on a 1-4 scale.
+
+![Radar Chart](reports/figures/radar_chart.png)
+
+### 2. Performance Trends (Mission 1 to 6)
+The trend analysis shows a strong start (Mission 1), followed by a notable dip in Mission 4, likely due to increased task complexity. However, a consistent recovery is observed in Missions 5 and 6, showing student resilience and adaptation.
+
+![Mission Trend](reports/figures/mission_trend.png)
 
 ##  Citation
 If you use this project, please cite the original dataset:
